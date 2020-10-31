@@ -1,7 +1,7 @@
-const Axios = require( 'axios' )
+import Axios from 'axios'
 
 const api = Axios.create( {
   baseURL: 'https://pokeapi.co/api/v2'
 } )
 
-module.exports = api
+export default api

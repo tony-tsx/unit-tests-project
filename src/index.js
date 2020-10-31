@@ -6,4 +6,4 @@ const object = {
 }
 const symbol = Symbol( 'any symbol' )
 
-module.exports = { string, array, object, symbol }
+export { string, array, object, symbol }

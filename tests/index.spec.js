@@ -1,4 +1,4 @@
-const { array, string, object, symbol } = require( '../src' )
+import { array, string, object, symbol } from '../src'
 
 it( '5 * 2 = 10', () => {
   expect( 5 * 2 ).toEqual( 10 )

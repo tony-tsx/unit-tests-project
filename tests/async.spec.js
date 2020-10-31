@@ -1,4 +1,4 @@
-const api = require( '../src/api' )
+import api from '../src/api'
 
 let numberOfRequest = 0
 
@@ -23,9 +23,8 @@ describe( 'pokemons request', () => {
     numberOfRequest++
     api.get( '/pokemon' )
       .then( response => {
-        const pokemonNames = response.data.results.map( pokemon => pokemon.name )
-        expect( pokemonNames ).toContain( 'pikachu' )
-        expect( response.data.results ).toContainEqual( { name: 'squirtle', url: 'https://pokeapi.co/api/v2/pokemon/7/' } )
+        expect( response.data.results )
+          .toContainEqual( { name: 'squirtle', url: 'https://pokeapi.co/api/v2/pokemon/7/' } )
         done()
       } )
       .catch( done )
