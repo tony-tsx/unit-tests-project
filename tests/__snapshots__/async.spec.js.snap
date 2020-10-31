@@ -1,0 +1,451 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pokemons request test snapshot first get in pokemon: request 1 1`] = `
+Object {
+  "count": 1050,
+  "next": "https://pokeapi.co/api/v2/pokemon?offset=20&limit=20",
+  "previous": null,
+  "results": Array [
+    Object {
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/1/",
+    },
+    Object {
+      "name": "ivysaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/2/",
+    },
+    Object {
+      "name": "venusaur",
+      "url": "https://pokeapi.co/api/v2/pokemon/3/",
+    },
+    Object {
+      "name": "charmander",
+      "url": "https://pokeapi.co/api/v2/pokemon/4/",
+    },
+    Object {
+      "name": "charmeleon",
+      "url": "https://pokeapi.co/api/v2/pokemon/5/",
+    },
+    Object {
+      "name": "charizard",
+      "url": "https://pokeapi.co/api/v2/pokemon/6/",
+    },
+    Object {
+      "name": "squirtle",
+      "url": "https://pokeapi.co/api/v2/pokemon/7/",
+    },
+    Object {
+      "name": "wartortle",
+      "url": "https://pokeapi.co/api/v2/pokemon/8/",
+    },
+    Object {
+      "name": "blastoise",
+      "url": "https://pokeapi.co/api/v2/pokemon/9/",
+    },
+    Object {
+      "name": "caterpie",
+      "url": "https://pokeapi.co/api/v2/pokemon/10/",
+    },
+    Object {
+      "name": "metapod",
+      "url": "https://pokeapi.co/api/v2/pokemon/11/",
+    },
+    Object {
+      "name": "butterfree",
+      "url": "https://pokeapi.co/api/v2/pokemon/12/",
+    },
+    Object {
+      "name": "weedle",
+      "url": "https://pokeapi.co/api/v2/pokemon/13/",
+    },
+    Object {
+      "name": "kakuna",
+      "url": "https://pokeapi.co/api/v2/pokemon/14/",
+    },
+    Object {
+      "name": "beedrill",
+      "url": "https://pokeapi.co/api/v2/pokemon/15/",
+    },
+    Object {
+      "name": "pidgey",
+      "url": "https://pokeapi.co/api/v2/pokemon/16/",
+    },
+    Object {
+      "name": "pidgeotto",
+      "url": "https://pokeapi.co/api/v2/pokemon/17/",
+    },
+    Object {
+      "name": "pidgeot",
+      "url": "https://pokeapi.co/api/v2/pokemon/18/",
+    },
+    Object {
+      "name": "rattata",
+      "url": "https://pokeapi.co/api/v2/pokemon/19/",
+    },
+    Object {
+      "name": "raticate",
+      "url": "https://pokeapi.co/api/v2/pokemon/20/",
+    },
+  ],
+}
+`;
+
+exports[`pokemons request test snapshot first get in pokemon: request 2 1`] = `
+Object {
+  "count": 1050,
+  "next": "https://pokeapi.co/api/v2/pokemon?offset=40&limit=20",
+  "previous": "https://pokeapi.co/api/v2/pokemon?offset=0&limit=20",
+  "results": Array [
+    Object {
+      "name": "spearow",
+      "url": "https://pokeapi.co/api/v2/pokemon/21/",
+    },
+    Object {
+      "name": "fearow",
+      "url": "https://pokeapi.co/api/v2/pokemon/22/",
+    },
+    Object {
+      "name": "ekans",
+      "url": "https://pokeapi.co/api/v2/pokemon/23/",
+    },
+    Object {
+      "name": "arbok",
+      "url": "https://pokeapi.co/api/v2/pokemon/24/",
+    },
+    Object {
+      "name": "pikachu",
+      "url": "https://pokeapi.co/api/v2/pokemon/25/",
+    },
+    Object {
+      "name": "raichu",
+      "url": "https://pokeapi.co/api/v2/pokemon/26/",
+    },
+    Object {
+      "name": "sandshrew",
+      "url": "https://pokeapi.co/api/v2/pokemon/27/",
+    },
+    Object {
+      "name": "sandslash",
+      "url": "https://pokeapi.co/api/v2/pokemon/28/",
+    },
+    Object {
+      "name": "nidoran-f",
+      "url": "https://pokeapi.co/api/v2/pokemon/29/",
+    },
+    Object {
+      "name": "nidorina",
+      "url": "https://pokeapi.co/api/v2/pokemon/30/",
+    },
+    Object {
+      "name": "nidoqueen",
+      "url": "https://pokeapi.co/api/v2/pokemon/31/",
+    },
+    Object {
+      "name": "nidoran-m",
+      "url": "https://pokeapi.co/api/v2/pokemon/32/",
+    },
+    Object {
+      "name": "nidorino",
+      "url": "https://pokeapi.co/api/v2/pokemon/33/",
+    },
+    Object {
+      "name": "nidoking",
+      "url": "https://pokeapi.co/api/v2/pokemon/34/",
+    },
+    Object {
+      "name": "clefairy",
+      "url": "https://pokeapi.co/api/v2/pokemon/35/",
+    },
+    Object {
+      "name": "clefable",
+      "url": "https://pokeapi.co/api/v2/pokemon/36/",
+    },
+    Object {
+      "name": "vulpix",
+      "url": "https://pokeapi.co/api/v2/pokemon/37/",
+    },
+    Object {
+      "name": "ninetales",
+      "url": "https://pokeapi.co/api/v2/pokemon/38/",
+    },
+    Object {
+      "name": "jigglypuff",
+      "url": "https://pokeapi.co/api/v2/pokemon/39/",
+    },
+    Object {
+      "name": "wigglytuff",
+      "url": "https://pokeapi.co/api/v2/pokemon/40/",
+    },
+  ],
+}
+`;
+
+exports[`pokemons request test snapshot first get in pokemon: request 3 1`] = `
+Object {
+  "count": 1050,
+  "next": "https://pokeapi.co/api/v2/pokemon?offset=60&limit=20",
+  "previous": "https://pokeapi.co/api/v2/pokemon?offset=20&limit=20",
+  "results": Array [
+    Object {
+      "name": "zubat",
+      "url": "https://pokeapi.co/api/v2/pokemon/41/",
+    },
+    Object {
+      "name": "golbat",
+      "url": "https://pokeapi.co/api/v2/pokemon/42/",
+    },
+    Object {
+      "name": "oddish",
+      "url": "https://pokeapi.co/api/v2/pokemon/43/",
+    },
+    Object {
+      "name": "gloom",
+      "url": "https://pokeapi.co/api/v2/pokemon/44/",
+    },
+    Object {
+      "name": "vileplume",
+      "url": "https://pokeapi.co/api/v2/pokemon/45/",
+    },
+    Object {
+      "name": "paras",
+      "url": "https://pokeapi.co/api/v2/pokemon/46/",
+    },
+    Object {
+      "name": "parasect",
+      "url": "https://pokeapi.co/api/v2/pokemon/47/",
+    },
+    Object {
+      "name": "venonat",
+      "url": "https://pokeapi.co/api/v2/pokemon/48/",
+    },
+    Object {
+      "name": "venomoth",
+      "url": "https://pokeapi.co/api/v2/pokemon/49/",
+    },
+    Object {
+      "name": "diglett",
+      "url": "https://pokeapi.co/api/v2/pokemon/50/",
+    },
+    Object {
+      "name": "dugtrio",
+      "url": "https://pokeapi.co/api/v2/pokemon/51/",
+    },
+    Object {
+      "name": "meowth",
+      "url": "https://pokeapi.co/api/v2/pokemon/52/",
+    },
+    Object {
+      "name": "persian",
+      "url": "https://pokeapi.co/api/v2/pokemon/53/",
+    },
+    Object {
+      "name": "psyduck",
+      "url": "https://pokeapi.co/api/v2/pokemon/54/",
+    },
+    Object {
+      "name": "golduck",
+      "url": "https://pokeapi.co/api/v2/pokemon/55/",
+    },
+    Object {
+      "name": "mankey",
+      "url": "https://pokeapi.co/api/v2/pokemon/56/",
+    },
+    Object {
+      "name": "primeape",
+      "url": "https://pokeapi.co/api/v2/pokemon/57/",
+    },
+    Object {
+      "name": "growlithe",
+      "url": "https://pokeapi.co/api/v2/pokemon/58/",
+    },
+    Object {
+      "name": "arcanine",
+      "url": "https://pokeapi.co/api/v2/pokemon/59/",
+    },
+    Object {
+      "name": "poliwag",
+      "url": "https://pokeapi.co/api/v2/pokemon/60/",
+    },
+  ],
+}
+`;
+
+exports[`pokemons request test snapshot first get in pokemon: request 4 1`] = `
+Object {
+  "count": 1050,
+  "next": "https://pokeapi.co/api/v2/pokemon?offset=80&limit=20",
+  "previous": "https://pokeapi.co/api/v2/pokemon?offset=40&limit=20",
+  "results": Array [
+    Object {
+      "name": "poliwhirl",
+      "url": "https://pokeapi.co/api/v2/pokemon/61/",
+    },
+    Object {
+      "name": "poliwrath",
+      "url": "https://pokeapi.co/api/v2/pokemon/62/",
+    },
+    Object {
+      "name": "abra",
+      "url": "https://pokeapi.co/api/v2/pokemon/63/",
+    },
+    Object {
+      "name": "kadabra",
+      "url": "https://pokeapi.co/api/v2/pokemon/64/",
+    },
+    Object {
+      "name": "alakazam",
+      "url": "https://pokeapi.co/api/v2/pokemon/65/",
+    },
+    Object {
+      "name": "machop",
+      "url": "https://pokeapi.co/api/v2/pokemon/66/",
+    },
+    Object {
+      "name": "machoke",
+      "url": "https://pokeapi.co/api/v2/pokemon/67/",
+    },
+    Object {
+      "name": "machamp",
+      "url": "https://pokeapi.co/api/v2/pokemon/68/",
+    },
+    Object {
+      "name": "bellsprout",
+      "url": "https://pokeapi.co/api/v2/pokemon/69/",
+    },
+    Object {
+      "name": "weepinbell",
+      "url": "https://pokeapi.co/api/v2/pokemon/70/",
+    },
+    Object {
+      "name": "victreebel",
+      "url": "https://pokeapi.co/api/v2/pokemon/71/",
+    },
+    Object {
+      "name": "tentacool",
+      "url": "https://pokeapi.co/api/v2/pokemon/72/",
+    },
+    Object {
+      "name": "tentacruel",
+      "url": "https://pokeapi.co/api/v2/pokemon/73/",
+    },
+    Object {
+      "name": "geodude",
+      "url": "https://pokeapi.co/api/v2/pokemon/74/",
+    },
+    Object {
+      "name": "graveler",
+      "url": "https://pokeapi.co/api/v2/pokemon/75/",
+    },
+    Object {
+      "name": "golem",
+      "url": "https://pokeapi.co/api/v2/pokemon/76/",
+    },
+    Object {
+      "name": "ponyta",
+      "url": "https://pokeapi.co/api/v2/pokemon/77/",
+    },
+    Object {
+      "name": "rapidash",
+      "url": "https://pokeapi.co/api/v2/pokemon/78/",
+    },
+    Object {
+      "name": "slowpoke",
+      "url": "https://pokeapi.co/api/v2/pokemon/79/",
+    },
+    Object {
+      "name": "slowbro",
+      "url": "https://pokeapi.co/api/v2/pokemon/80/",
+    },
+  ],
+}
+`;
+
+exports[`pokemons request test snapshot first get in pokemon: request 5 1`] = `
+Object {
+  "count": 1050,
+  "next": "https://pokeapi.co/api/v2/pokemon?offset=100&limit=20",
+  "previous": "https://pokeapi.co/api/v2/pokemon?offset=60&limit=20",
+  "results": Array [
+    Object {
+      "name": "magnemite",
+      "url": "https://pokeapi.co/api/v2/pokemon/81/",
+    },
+    Object {
+      "name": "magneton",
+      "url": "https://pokeapi.co/api/v2/pokemon/82/",
+    },
+    Object {
+      "name": "farfetchd",
+      "url": "https://pokeapi.co/api/v2/pokemon/83/",
+    },
+    Object {
+      "name": "doduo",
+      "url": "https://pokeapi.co/api/v2/pokemon/84/",
+    },
+    Object {
+      "name": "dodrio",
+      "url": "https://pokeapi.co/api/v2/pokemon/85/",
+    },
+    Object {
+      "name": "seel",
+      "url": "https://pokeapi.co/api/v2/pokemon/86/",
+    },
+    Object {
+      "name": "dewgong",
+      "url": "https://pokeapi.co/api/v2/pokemon/87/",
+    },
+    Object {
+      "name": "grimer",
+      "url": "https://pokeapi.co/api/v2/pokemon/88/",
+    },
+    Object {
+      "name": "muk",
+      "url": "https://pokeapi.co/api/v2/pokemon/89/",
+    },
+    Object {
+      "name": "shellder",
+      "url": "https://pokeapi.co/api/v2/pokemon/90/",
+    },
+    Object {
+      "name": "cloyster",
+      "url": "https://pokeapi.co/api/v2/pokemon/91/",
+    },
+    Object {
+      "name": "gastly",
+      "url": "https://pokeapi.co/api/v2/pokemon/92/",
+    },
+    Object {
+      "name": "haunter",
+      "url": "https://pokeapi.co/api/v2/pokemon/93/",
+    },
+    Object {
+      "name": "gengar",
+      "url": "https://pokeapi.co/api/v2/pokemon/94/",
+    },
+    Object {
+      "name": "onix",
+      "url": "https://pokeapi.co/api/v2/pokemon/95/",
+    },
+    Object {
+      "name": "drowzee",
+      "url": "https://pokeapi.co/api/v2/pokemon/96/",
+    },
+    Object {
+      "name": "hypno",
+      "url": "https://pokeapi.co/api/v2/pokemon/97/",
+    },
+    Object {
+      "name": "krabby",
+      "url": "https://pokeapi.co/api/v2/pokemon/98/",
+    },
+    Object {
+      "name": "kingler",
+      "url": "https://pokeapi.co/api/v2/pokemon/99/",
+    },
+    Object {
+      "name": "voltorb",
+      "url": "https://pokeapi.co/api/v2/pokemon/100/",
+    },
+  ],
+}
+`;
