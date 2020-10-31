@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect with mock explain expect mock usage 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [],
+    Array [
+      1,
+      "x",
+    ],
+    Array [
+      5,
+      "a",
+    ],
+    Array [
+      2,
+      "y",
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
